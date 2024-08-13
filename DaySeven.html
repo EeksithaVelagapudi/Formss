@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+
+    <body>
+    
+        <form action="./seven.txt">
+
+
+    <fieldset>
+        <legend>Register for 10K Coders</legend>
+        <center>
+        <pre>
+            <label for="Image">Upload Image:--</label>
+            <input type="image" src="./Samantha.jpg" width="200" height="150" id="Image">
+
+            <label for="Name">Name:--</label>
+            <input type="text" id="Name" placeholder="Full Name" style="width: 200px;" required>
+
+            <label for="Email">Email:--</label>
+            <input type="email" id="Email" placeholder="Email" style="width: 200px;" required>
+
+            <label for="education">Education:--</label>
+            <select name="Education" id="education" style="width: 200px;" required>
+            <option value="">Choose from below</option>
+            <option value="BTech">BTech</option>
+            <option value="Bsc">Bsc</option>
+            <option value="BCom">BCom</option>
+            <option value="MCA">MCA</option>
+            <option value="MBA">MBA</option>
+            </select>
+
+            <label for="year">Year of Passed Out:--</label>
+            <select name="Year of Passed Out" id="year" style="width: 200px;" required>
+            <option value="">Choose from below</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            </select>
+
+            <label for="location">Location:--</label>
+            <input type="text" list="location" style="width: 200px;">
+            <datalist name="Location" id="location">
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Pune">Pune</option>
+            <option value="Delhi">Delhi</option></datalist>
+            <label for="course">Choose your Course:--</label>
+            <select name="Course" id="course" style="width: 200px;" required>
+            <option value="">Choose from below</option>
+            <option value="Frontend Developer">Frontend Developer</option>
+            <option value="Full Stack Developer">Full Stack developer</option>
+            <option value="AWS">AWS</option>
+            <option value="Python Developer">Python Developer</option>
+            <option value="DevOps">DevOps</option></select>
+
+            <label for="phonenum">Phone Number:--</label>
+            <input type="number" id="phonenum" style="width: 200px;" required>
+
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+
+            <label for="check">Do you wanna become as a Developer?</label>
+            <input type="checkbox" id="check">
+
+            <button type="submit">Submit</button>
+        </pre>
+        </center>
+
+    </fieldset>
+</form>
+    </body>
+</html>
